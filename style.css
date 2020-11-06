@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  background-color: dimgrey;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*:focus{
+  outline: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container{
+width: 500px;
+height: 700px;
+border: 2px solid red;
+
+
+}
+.heading{
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  height: 60px;
+  background-color:rgb(218, 36, 111)
+
+}
+.chat{
+height:calc(100% - 120px);
+background-color: #d5ebfe;
+overflow: auto;
+}
+
+
+#userbox{
+  height: 100vh;
+  width: 100%;
+  
+}
+
+div#user-input {
+  height: 60px;
+  background: #d5ebfe;
+  padding: 15px;
+  border-top: 1px solid gray;
+}
+
+#userBox {
+  width: 100%;
+  border-radius: 2em;
+  border: 0px solid #777777;
+  padding: 8px 20px;
+  font-size: 18px;
+  background: transparent;
+  box-shadow: inset 4px 4px 4px #bbb, inset -4px -4px 4px #ccc;
+}
+
+.message {
+  width: 100%;
+  display: flex;
+}
+
+p {
+   max-width: 300px;
+   padding: 5px 10px;
+   margin: 5px;
+   text-emphasis: none;
+   text-overflow: none;
+   border-radius: 4px;
+   box-shadow: 0px 0px 4px #4646469e;
+}
+
+.bot {
+  justify-content: flex-start;
+}
+
+.bot p {
+  background-color: #ffc8dd;
+}
+
+.user {
+  justify-content: flex-end;
+}
+.user p {
+  background-color: #cdb4db;
+}
